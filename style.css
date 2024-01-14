@@ -1,0 +1,41 @@
+body {
+    background-color: #FFA07A; /* Salmão */
+    color: #333; /* Cor do texto principal */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Pode variar dependendo do peso que você escolheu */
+}
+main {
+    flex: 1;
+}
+nav.navbar {
+    background-color: #343a40 !important; /* Dark */
+}
+
+nav.navbar a.navbar-brand {
+    color: #FFF; /* Cor do texto do brand */
+}
+
+nav.navbar a.nav-link {
+    color: #FFF !important; /* Cor do texto dos links */
+}
+
+main.container {
+    background-color: #FFF3E6; /* Cor de fundo do conteúdo */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer.bg-dark {
+    color: #FFF; /* Cor do texto do rodapé */
+}
